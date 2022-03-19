@@ -167,11 +167,12 @@
                 <h2 class="section-title" tabindex="16">Contato</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input" tabindex="17">
-                        <input type="mail" placeholder="Email" class="contact__input" tabindex="18">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input" tabindex="19"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button" tabindex="20">
+                    <form action="https://formsubmit.co/ederaparecidoleite@hotmail.com" method="post" class="contact__form">
+                        <input type="text" name="Nome" id="input-name" placeholder="Nome" required class="contact__input">
+                        <input type="email" name="Email" id="input-email" placeholder="Email" required class="contact__input">
+                        <textarea name="Texto" id="" cols="0" rows="10" class="contact__input" tabindex="19"></textarea>
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" value="Enviar" class="contact__button button" tabindex="20">Enviar</button>
                     </form>
                 </div>
             </section>
